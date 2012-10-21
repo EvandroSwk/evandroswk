@@ -9,7 +9,6 @@ web1:
     - soap
     - gd
     - freetype
-  document_root: /demos/blog
   shared_writable_dirs:
     - /protected/runtime
     - /assets
