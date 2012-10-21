@@ -1,0 +1,31 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background: url("../images/bg2.png");
+}
+.sidebar-nav {
+    padding: 9px 0;
+}
+
+.swkContainer {
+    background: none repeat scroll 0 0 white;
+    border-radius: 5px 5px 5px 5px;
+    margin: auto;
+    /*max-width: 800px;*/
+    max-width: 940px;
+    padding: 15px;
+}
+
+footer {
+    margin-top: 10px;
+    text-align: center;
+    color: #d3d3d3;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+a {
+    cursor: pointer;
+}
