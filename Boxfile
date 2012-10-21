@@ -1,3 +1,15 @@
---- 
-web1: 
-  shared_writable_dirs: [/var/www/assets, /var/www/protected/runtime]
+web1:
+  php_extensions:
+    - dom
+    - pdo
+    - pdo_sqlite
+    - pdo_mysql
+    - apc
+    - mcrypt
+    - soap
+    - gd
+    - freetype
+  document_root: /demos/blog
+  shared_writable_dirs:
+    - /protected/runtime
+    - /assets
