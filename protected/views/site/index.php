@@ -16,7 +16,7 @@ $this->pageTitle=Yii::app()->name . ' - About';
             <h1>Evandro Sviercowski <br /><small>Analista e Desenvolvedor de Sistemas</small></h1><br />
             <div>
                 Brasileriro, <?php echo SwkUtils::calculaIdade('1986-04-07') ?> anos, casado e apaixonado pela minha linda esposa Ana Maria.
-                Louco por tecnologia e viciado em aprender.
+                Louco por tecnologia.
             </div>
         </div>
     </div>
